@@ -1,7 +1,7 @@
 {
   "name": "unity-utils",
-  "version": "0.0.1",
-  "description": "services",
+  "version": "0.0.2",
+  "description": "utils",
   "main": "index.js",
   "repository": {
     "type": "git",
