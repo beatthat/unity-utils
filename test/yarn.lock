@@ -884,7 +884,7 @@ isexe@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
 
-isobject@^2.0.0, isobject@^2.1.0:
+isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
   dependencies:
@@ -1159,10 +1159,10 @@ object.omit@^2.0.0:
     is-extendable "^0.1.1"
 
 object.pick@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/object.pick/-/object.pick-1.2.0.tgz#b5392bee9782da6d9fb7d6afaf539779f1234c2b"
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/object.pick/-/object.pick-1.3.0.tgz#87a10ac4c1694bd2e1cbf53591a66141fb5dd747"
   dependencies:
-    isobject "^2.1.0"
+    isobject "^3.0.1"
 
 once@^1.3.0, once@~1.3.0:
   version "1.3.3"
@@ -1588,9 +1588,9 @@ unique-stream@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unique-stream/-/unique-stream-1.0.0.tgz#d59a4a75427447d9aa6c91e70263f8d26a4b104b"
 
-"unity-utils@github:beatthat/unity-utils":
-  version "0.0.2"
-  resolved "https://codeload.github.com/beatthat/unity-utils/tar.gz/e728f6e844b8a3176069643c296c1ddc86e07c6d"
+"unity-utils@github:beatthat/unity-utils#0.0.3":
+  version "0.0.3"
+  resolved "https://codeload.github.com/beatthat/unity-utils/tar.gz/431c94c113a1d8a02cacbef806133890b2432062"
   dependencies:
     mkdirp "^0.5.1"
     ncp "^2.0.0"
