@@ -8,7 +8,7 @@
     "clean": "rm -rf node_modules yarn.lock Library Temp Assets"
   },
   "dependencies": {
-    "utils": "../utils-0.0.6.tgz"
+    "utils": "../utils-0.0.7.tgz"
   },
   "devDependencies": {
     "babel-core": "^5.8.23",
