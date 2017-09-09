@@ -1,6 +1,7 @@
 {
-  "name": "unity-utils",
-  "version": "0.0.5",
+  "name": "utils",
+  "scope": "ape",
+  "version": "0.0.6",
   "description": "utils",
   "main": "index.js",
   "repository": {
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/beatthat/unity-utils",
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
-    "install:test": "rm -f *.tgz npm cache clear && yarn cache clean && yarn pack --filename test-pkg.tgz && cd test && npm run clean && yarn install --force"
+    "install:test": "rm -f *.tgz && npm pack && cd test && npm run clean && npm install",
+    "clean": "rm -f *.tgz && cd test && npm run clean",
+    "sync:test2src": "rsync -rv --include '*/' --include '*.cs' --exclude '*' --prune-empty-dirs test/Assets/Plugins/${npm_package_scope}/${npm_package_name}/ ./src/${npm_package_name}/"
   },
   "dependencies": {
     "ncp": "^2.0.0",

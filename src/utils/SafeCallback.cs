@@ -8,6 +8,8 @@ namespace BeatThat
 	/// without risking a NullRef error on the callback if the monobehaviour gets destroyed, say, by a scene change.
 	/// 
 	/// Wraps callbacks with a check that the owner is still valid or some other user-defined cancel condition.
+	/// 
+	/// All methods use allocating closures, so not an optimal solution if call volume is very high and tolerance for allocations is low.
 	/// </summary>
 	public static class SafeCallback 
 	{
